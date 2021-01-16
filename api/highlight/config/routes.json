@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/highlight",
+      "handler": "highlight.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/highlight",
+      "handler": "highlight.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/highlight",
+      "handler": "highlight.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

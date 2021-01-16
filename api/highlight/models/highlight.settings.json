@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "highlights",
+  "info": {
+    "name": "highlight",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "gift": {
+      "model": "gift"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

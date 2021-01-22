@@ -15,9 +15,8 @@
       "type": "string"
     },
     "gifts": {
-      "unique": true,
-      "collection": "gift",
-      "via": "category"
+      "via": "categories",
+      "collection": "gift"
     }
   }
 }

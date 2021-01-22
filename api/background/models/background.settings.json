@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "brands",
+  "collectionName": "backgrounds",
   "info": {
-    "name": "brand",
-    "description": ""
+    "name": "background"
   },
   "options": {
     "increments": true,
@@ -11,26 +10,19 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "gifts": {
-      "via": "brand",
-      "collection": "gift"
-    },
-    "logo": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "files",
         "images",
+        "files",
         "videos"
       ],
       "plugin": "upload",
       "required": false
     },
-    "description": {
-      "type": "richtext"
+    "name": {
+      "type": "string"
     }
   }
 }

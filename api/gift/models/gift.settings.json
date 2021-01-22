@@ -31,13 +31,14 @@
       "plugin": "upload",
       "required": false
     },
-    "category": {
+    "categories": {
+      "collection": "category",
       "via": "gifts",
-      "model": "category"
+      "dominant": true
     },
     "brand": {
-      "via": "gifts",
-      "model": "brand"
+      "model": "brand",
+      "via": "gifts"
     }
   }
 }

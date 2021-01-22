@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_categories",
+  "info": {
+    "name": "Header Categories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "categories": {
+      "collection": "category"
+    }
+  }
+}

@@ -13,6 +13,7 @@ module.exports = {
       entity = await strapi.api.order.services.order.create(data, { files });
     } else {
       const {
+        user,
         gift,
         quantity,
         price,
@@ -29,6 +30,7 @@ module.exports = {
       });
 
       entity = await strapi.api.order.services.order.create({
+        user,
         gift,
         quantity,
         price,

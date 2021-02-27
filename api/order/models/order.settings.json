@@ -25,6 +25,11 @@
     },
     "background": {
       "model": "background"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "orders"
     }
   }
 }

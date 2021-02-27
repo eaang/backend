@@ -63,6 +63,10 @@
       "type": "component",
       "repeatable": false,
       "component": "users.profile"
+    },
+    "orders": {
+      "via": "user",
+      "collection": "order"
     }
   }
 }
